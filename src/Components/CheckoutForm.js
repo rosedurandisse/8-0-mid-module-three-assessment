@@ -36,7 +36,7 @@ class CheckoutForm extends React.Component {
         return (
             <form id='checkout' onSubmit={this.handleSubmit}>
                 <h2>Checkout</h2>
-                <label htmlFor='firstName'>First Name
+                <label>First Name
                     <input
                         type='text'
                         name='firstName'
@@ -45,7 +45,7 @@ class CheckoutForm extends React.Component {
                     />
                 </label>
 
-                <label htmlFor='lastName'>Last Name
+                <label>Last Name
                     <input
                         type='text'
                         name='lastName'
@@ -54,7 +54,7 @@ class CheckoutForm extends React.Component {
                     />
                 </label>
 
-                <label htmlFor='email'>Email
+                <label>Email
                     <input
                         type='text'
                         name='email'
@@ -63,7 +63,7 @@ class CheckoutForm extends React.Component {
                     />
                 </label>
 
-                <label htmlFor='creditCard'>Credit Card
+                <label>Credit Card
                     <input
                         type='text'
                         name='creditCard'
@@ -73,7 +73,7 @@ class CheckoutForm extends React.Component {
                     />
                 </label>
 
-                <label htmlFor='zipCode'>Zip Code
+                <label>Zip Code
                     <input
                         type='text'
                         id='zipCode'
